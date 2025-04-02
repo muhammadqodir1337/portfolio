@@ -1,0 +1,287 @@
+
+
+* {
+    background-color: black;
+}
+
+.about {
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.men {
+    text-decoration: none;
+    color: bisque;
+    /* font-family: 'Roboto', sans-serif; */
+    /* border: 1px solid white; */
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /* border-radius: 17px; */
+    margin-right: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+
+.info {
+    color: white;
+    font-family: 'Audiowide', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.info-p {
+    color: white;
+    /* font-family: 'Exo 2', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+}
+
+
+
+.photo {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+
+
+
+.hacking {
+    color: white;
+}
+
+.programming {
+    color: white;
+}
+
+.soc {
+    color: white;
+}
+
+.psychogist {
+    color: white;
+}
+
+.dj {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hacking {
+    width: 470px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.programming {
+    width: 470px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.soc {
+    width: 470px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.psychogist {
+    width: 470px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.programming img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.psychogist img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.soc img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hacking img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.hacking p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    /* color: #00ffcc; */
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.psychogist p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    /* color: #00ffcc; */
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.programming p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.soc p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.dj p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.soc h1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.psychogist h1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.programming h1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.hacking h1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    /* color: #00ffcc; */
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.dj h1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    /* color: #00ffcc; */
+    text-shadow: 0px 0px 8px #00ffcc;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 120px;
+
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 120px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.insta {
+    background: transparent;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.me {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-shadow: 0px 0px 8px #ff0000;
+}
+
+.me:hover {
+    color: red;
+    transition: 0.5s;
+}
